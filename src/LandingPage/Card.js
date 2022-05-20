@@ -1,4 +1,5 @@
 import React from "react";
+import shareImg from "../Mock-data/share.svg";
 
 export default function Card({ obj }) {
   // console.log(obj);
@@ -25,7 +26,9 @@ export default function Card({ obj }) {
       <div className="foot">
         <div>
           <span>{"\u2661"}</span>
-          <span>{"\u27A2"}</span>
+          <span>
+            <img src={shareImg} alt="shareImg" />
+          </span>
         </div>
         <div className="date">{date.split("GMT")[0]}</div>
       </div>
