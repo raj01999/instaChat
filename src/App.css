@@ -105,6 +105,11 @@ nav h1 {
   outline: none;
 }
 
+.description > input {
+  height: 35px;
+  padding: 10px;
+}
+
 .Author-location {
   width: 100%;
   display: flex;
@@ -113,12 +118,13 @@ nav h1 {
 
 .Author-location > input {
   width: 48%;
-  height: 25px;
+  height: 30px;
   border-radius: 5px;
   background-color: #fff;
   border: 1px solid #ddd;
   opacity: 0.95;
   outline: none;
+  padding: 10px;
 }
 
 .post-submit {
@@ -127,7 +133,7 @@ nav h1 {
   border: 1px solid #ddd;
   opacity: 0.95;
   outline: none;
-  padding: 5px 10px;
+  padding: 10px 30px;
   cursor: pointer;
 }
 
@@ -231,12 +237,14 @@ nav h1 {
 /* ............................................................... */
 
 div.upload {
-  background-color: #fff;
+  background-color: #425f9c;
   border: 1px solid #ddd;
   border-radius: 5px;
   display: inline-block;
   padding: 3px 40px 3px 3px;
   position: relative;
+  height: 45px;
+  width: 100%;
 }
 
 div.upload:hover {
@@ -257,17 +265,6 @@ div.upload input[type="file"] {
   left: 0;
   margin-top: 8px;
   margin-left: 5px;
-}
-
-div.upload {
-  background-color: #425f9c;
-  height: 45px;
-  width: 100%;
-  cursor: pointer;
-}
-
-.uploadButton {
-  height: 38px;
 }
 
 @media only screen and (max-width: 720px) {

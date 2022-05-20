@@ -78,7 +78,7 @@ const AddPost = () => {
               style={{
                 position: "absolute",
                 color: "green",
-                fontSize: "1.4rem",
+                fontSize: "1.7rem",
               }}
             >
               Post Added
@@ -92,7 +92,7 @@ const AddPost = () => {
               style={{
                 position: "absolute",
                 color: "skyblue",
-                fontSize: "1.4rem",
+                fontSize: "1.7rem",
               }}
             >
               Uploading...
@@ -106,7 +106,7 @@ const AddPost = () => {
               style={{
                 position: "absolute",
                 color: "red",
-                fontSize: "1.4rem",
+                fontSize: "1.7rem",
               }}
             >
               Upload Failed
