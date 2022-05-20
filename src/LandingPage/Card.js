@@ -34,7 +34,7 @@ export default function Card({ obj }) {
       </div>
 
       <div className="like-content">
-        <p>{likes} likes</p>
+        <p style={{ fontWeight: "bold" }}>{likes} likes</p>
         <p className="content">{description}</p>
       </div>
     </div>

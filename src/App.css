@@ -31,11 +31,11 @@ body {
   align-items: center;
   width: 100%;
   height: 5rem;
-  background-color: whitesmoke;
+  background-color: black;
 }
 
 .camera {
-  margin-right: 6rem;
+  margin-right: 5rem;
 }
 
 .camera:hover {
@@ -43,7 +43,7 @@ body {
 }
 
 nav h1 {
-  margin-left: 6rem;
+  margin-left: 5rem;
   cursor: pointer;
   color: darkcyan;
   font-size: 2.2rem;
@@ -51,27 +51,16 @@ nav h1 {
 
 .post-img {
   width: 100%;
-  height: 25rem;
   border-radius: 5px;
-}
-
-@media only screen and (max-width: 720px) {
-  .camera {
-    margin-right: 3rem;
-  }
-
-  h1 {
-    margin-left: 3rem;
-  }
 }
 
 /* Css for Card Component  */
 .card {
-  width: 30rem;
+  width: 35rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   margin: 5px;
-  padding: 10px;
+  padding: 8px;
 }
 
 .add-post-container {
@@ -170,9 +159,9 @@ nav h1 {
 }
 
 .foot span {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin-right: 5px;
-  border-radius: 999px;
+  font-weight: bold;
 }
 
 .foot span:hover {
@@ -182,14 +171,14 @@ nav h1 {
 .like-content {
   margin-left: 7px;
   text-align: start;
-  margin-bottom: 2rem;
+  margin-bottom: 1.7rem;
   margin-top: 0.5rem;
 }
 
 .content {
   margin-top: 7px;
+  padding-right: 4px;
   word-break: break-word;
-  font-weight: bold;
 }
 
 /* Css for Post View  */
@@ -290,6 +279,14 @@ div.upload input[type="file"] {
 
   .add-post-container {
     width: 95%;
+  }
+
+  .camera {
+    margin-right: 1rem;
+  }
+
+  nav h1 {
+    margin-left: 1rem;
   }
 }
 
