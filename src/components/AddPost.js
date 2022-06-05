@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Navbar from "../LandingPage/Navbar";
+import { useNavigate } from "react-router-dom";
 
 const AddPost = () => {
   const [isSucess, setIsSucess] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
   const [isFailed, setIsFailed] = useState(false);
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -39,6 +41,9 @@ const AddPost = () => {
         const resp = await response.json();
 
         setIsSucess(true);
+
+        navigate("/LandingPage");
+
         setTimeout(() => {
           setIsSucess(false);
         }, 3000);
